@@ -2,7 +2,7 @@ document.querySelector('.get-jokes').addEventListener('click', getJokes);
 
 function getJokes(e){
 
- const number = document.querySelector('#number').value;
+ const number = document.querySelector("#number").value;
  
  const xhr = new XMLHttpRequest();
  
